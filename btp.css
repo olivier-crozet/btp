@@ -108,6 +108,56 @@ nav li a
                  margin-top: 5%;
                 }
 
+              /*partie realisation*/
+
+.oc-h1-realisation
+                  {
+                    text-align: center;
+                  }
+.oc-section-realisation
+                       {
+                        display: flex;
+                        flex-direction: column;
+                       }        
+
+.oc-article-realisation1
+                      {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                      }     
+.oc-text-realisation1
+                     {
+                      width: 30%;
+                      margin-bottom: 5%;
+                     }
+.oc-foto1
+          {
+            width: 200px;
+            height:200px;
+          }
+
+.oc-foto2:hover .oc-foto1
+               {
+                display: none;
+               }
+
+.oc-foto2
+         {display: none;
+          width: 200px;
+          height: 200px;
+          margin-bottom: 2%;
+
+         }
+
+.oc-effet1-realisation:hover .oc-foto1
+                       {
+                         display: none;
+                       }
+.oc-effet1-realisation:hover .oc-foto2
+                                      {
+                                        display: block;
+                                      }
        /*footer*/
 
 footer {
