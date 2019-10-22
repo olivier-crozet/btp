@@ -110,8 +110,16 @@ nav li a
 
               /*partie realisation*/
 
+.oc-body-realisation
+                    {
+                      margin:0px;
+                       background-image: url(oc-background-accueille.jpg);
+                       background-size: cover;
+                       background-repeat: no-repeat;
+                    }
 .oc-h1-realisation
                   {
+                    margin-bottom: 5%;
                     text-align: center;
                   }
 .oc-section-realisation
@@ -122,12 +130,27 @@ nav li a
 
 .oc-article-realisation1
                       {
+                        
+                        width: 70%;
+                        margin: auto;
+                        height: 250px;
+                        border: ridge;
+                        align-items: center;
                         display: flex;
                         flex-direction: row;
                         justify-content: space-around;
                       }     
+.oc-h1-realisation
+                   {
+                    border-top: solid 1px #FC6E1C;
+                     border-bottom: solid 1px #FC6E1C;
+                   }
 .oc-text-realisation1
                      {
+                      display: flex;
+                      flex-direction: column;
+                      align-items: center;
+                      display: flex;
                       width: 30%;
                       margin-bottom: 5%;
                      }
@@ -149,6 +172,15 @@ nav li a
           margin-bottom: 2%;
 
          }
+.oc-text-realisation2
+                     {
+                      display: flex;
+                      flex-direction: column;
+                      align-items: center;
+                      display: flex;
+                      width: 30%;
+                      margin-bottom: 5%;
+                     }
 
 .oc-effet1-realisation:hover .oc-foto1
                        {
@@ -158,6 +190,190 @@ nav li a
                                       {
                                         display: block;
                                       }
+.oc-foto2:hover 
+                       {
+                     -webkit-transform: scale(2.3);
+                     transform: scale(2.3);
+                       }
+
+                       /*maconnerie*/
+
+.oc-article-realisation2
+                      {
+                        
+                        width: 70%;
+                        margin: auto;
+                        height: 250px;
+                        border: ridge;
+                        align-items: center;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                      }     
+
+.oc-foto-macon1
+          {
+            width: 200px;
+            height:200px;
+          }
+
+.oc-foto-macon2:hover .oc-foto-macon1
+               {
+                display: none;
+               }
+
+.oc-foto-macon2
+         {display: none;
+          width: 200px;
+          height: 200px;
+          margin-bottom: 2%;
+
+         }
+
+.oc-effet-realisation2:hover .oc-foto-macon1
+                       {
+                         display: none;
+                       }
+.oc-effet-realisation2:hover .oc-foto-macon2
+                                      {
+                                        display: block;
+                                      }
+.oc-foto-macon2:hover 
+                       {
+                     -webkit-transform: scale(2.3);
+                     transform: scale(2.3);
+                       }
+
+                       /*carreleur*/
+
+.oc-text-realisation3
+                     {
+                      display: flex;
+                      flex-direction: column;
+                      align-items: center;
+                      display: flex;
+                      width: 30%;
+                      margin-bottom: 5%;
+                     }
+
+                     
+
+
+.oc-article-realisation3
+                      {
+                        
+                        width: 70%;
+                        margin: auto;
+                        height: 250px;
+                        border: ridge;
+                        align-items: center;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                      }     
+
+.oc-foto-carrelage-1
+          {
+            width: 200px;
+            height:200px;
+          }
+
+.oc-foto-carrelage2:hover .oc-foto-carrelage-1
+               {
+                display: none;
+               }
+
+.oc-foto-carrelage2
+         {display: none;
+          width: 200px;
+          height: 200px;
+          margin-bottom: 2%;
+
+         }
+
+.oc-effet-realisation3:hover .oc-foto-carrelage-1
+                       {
+                         display: none;
+                       }
+.oc-effet-realisation3:hover .oc-foto-carrelage2
+                                      {
+                                        display: block;
+                                      }
+.oc-foto-carrelage2:hover 
+                       {
+                     -webkit-transform: scale(2.3);
+                     transform: scale(2.3);
+                       }
+
+                       /*peintre*/
+
+.oc-foto-peintre1
+          {
+            width: 200px;
+            height:200px;
+          }
+
+.oc-foto-peintre2:hover .oc-foto-peintre1
+               {
+                display: none;
+               }
+
+.oc-foto-peintre2
+         {display: none;
+          width: 200px;
+          height: 200px;
+          margin-bottom: 2%;
+
+         }
+
+.oc-effet-realisation3:hover .oc-foto-peintre1
+                       {
+                         display: none;
+                       }
+.oc-effet-realisation3:hover .oc-foto-peintre2
+                                      {
+                                        display: block;
+                                      }
+.oc-foto-peintre2:hover 
+                       {
+                     -webkit-transform: scale(2.3);
+                     transform: scale(2.3);
+                       }
+          /*couvreur*/
+
+.oc-foto-couvreur1
+          {
+            width: 200px;
+            height:200px;
+          }
+
+.oc-foto-couvreur2:hover .oc-foto-couvreur1
+               {
+                display: none;
+               }
+
+.oc-foto-couvreur2
+         {display: none;
+          width: 200px;
+          height: 200px;
+          margin-bottom: 2%;
+
+         }
+
+.oc-effet-realisation3:hover .oc-foto-couvreur1
+                       {
+                         display: none;
+                       }
+.oc-effet-realisation3:hover .oc-foto-couvreur2
+                                      {
+                                        display: block;
+                                      }
+.oc-foto-couvreur2:hover 
+                       {
+                     -webkit-transform: scale(2.3);
+                     transform: scale(2.3);
+                       }
+
        /*footer*/
 
 footer {
